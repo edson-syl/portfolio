@@ -1,13 +1,95 @@
-<!doctype html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <link rel="icon" type="image/png" href="/src/assets/icon.png" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Edson - Portfolio</title>
-  </head>
-  <body>
-    <div id="root"></div>
-    <script type="module" src="/src/main.jsx"></script>
-  </body>
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <title>Portfólio Atualizado</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Fonte moderna -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Poppins', sans-serif;
+        }
+
+        body {
+            min-height: 100vh;
+            background: linear-gradient(135deg, #0f2027, #203a43, #2c5364);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: #ffffff;
+        }
+
+        .container {
+            text-align: center;
+            padding: 50px 30px;
+            max-width: 600px;
+            background: rgba(255, 255, 255, 0.08);
+            backdrop-filter: blur(10px);
+            border-radius: 20px;
+            box-shadow: 0 25px 50px rgba(0, 0, 0, 0.4);
+        }
+
+        h1 {
+            font-size: 2.8rem;
+            margin-bottom: 15px;
+        }
+
+        p {
+            font-size: 1.1rem;
+            opacity: 0.9;
+            margin-bottom: 35px;
+            line-height: 1.6;
+        }
+
+        .btn {
+            display: inline-block;
+            padding: 15px 40px;
+            font-size: 1.1rem;
+            font-weight: 600;
+            color: #0f2027;
+            background: #ffffff;
+            border-radius: 50px;
+            text-decoration: none;
+            transition: all 0.3s ease;
+            box-shadow: 0 10px 25px rgba(0, 0, 0, 0.25);
+        }
+
+        .btn:hover {
+            transform: translateY(-4px);
+            box-shadow: 0 18px 40px rgba(0, 0, 0, 0.35);
+            background: #f1f1f1;
+        }
+
+        .small {
+            margin-top: 30px;
+            font-size: 0.85rem;
+            opacity: 0.7;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <h1>🚀 Meu Portfólio Mudou!</h1>
+        <p>
+            Obrigado por visitar 😊<br>
+            Meu portfólio agora está em um novo endereço, com visual renovado
+            e muito mais conteúdo.
+        </p>
+        <a href="https://edson-silva.netlify.app/" class="btn">
+            Ir para o novo portfólio
+        </a>
+
+        <div class="small">
+            © 2025 • Todos os direitos reservados
+        </div>
+    </div>
+
+</body>
 </html>
